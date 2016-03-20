@@ -37,12 +37,12 @@ MODIFY FILE (name='MYDATABASELOGICAL'
  * This modifies where SQL will look for the database data (The script also includes the script for the log file)
  
 
-## IMPORTANT - MOVING THE FILES ## 
+## IMPORTANT - MOVING THE FILES
  
 Now here you must manually move the files from their current location to the new location (and remember to rename them manually if you changed them in the MODIFY FILE command)
 
 
-## Bringing the DB back online ## 
+## Bringing the DB back online 
 
 * **ALTER DATABASE MYDATABASE SET ONLINE;**
 
